@@ -1,0 +1,163 @@
+body{
+  background-color:#000000;
+}
+.header {
+  height: 80px;
+  text-align: center;
+  margin-bottom: 100px
+}
+.header img{
+  width: 100%;
+  height: 400px;
+  background:#FFDFD3;
+}
+.footer{
+  background:#D291BC;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  color: #10041893;
+}
+.copyrigth{
+  background-color: #b85f9a;
+}
+.copyrigth p{
+  padding-top: 4px;
+  font-size: small;
+  font-weight: bold;
+  font-style: italic;
+}
+.contact{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contact div{
+  margin-right:10px;
+}
+.footer p{
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.726);
+}
+.header h1{
+  font-weight: bold;
+}
+.box{
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.card{
+  width: 300px;
+  height: 300px;
+  margin: 20px 20px;
+  border: black 3px solid;
+  border-radius: 5px;
+  box-shadow:rgb(15, 12, 12) 1px 4px 5px;
+}
+.card:hover{
+  cursor:pointer;
+}
+.image{
+  border-top-left-radius: 5px;
+  height:75%;
+  background-color: rgba(34, 33, 33, 0.521);
+}
+.image img{
+  height: 100%;
+  width:100%;
+}
+.dataPokemon{
+  margin-bottom: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+.info{
+  margin-top: 5px;
+}
+.name{
+  text-transform: capitalize;
+  font-size: 20px;
+}
+.data{
+  font-size: 15px;
+  color:gray;
+  font-weight: 800;
+}
+.card-pokemon{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.pokemon-container{
+  background-color:rgb(247, 247, 248);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  width: 60%;
+  height: 25%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  border: 3px solid black;
+  box-shadow:rgb(15, 12, 12) 1px 4px 5px;
+}
+.imageTable{
+  width: 50%;
+}
+.imageTable img{
+  width: 100%;
+  height: 100%;
+}
+.tablePokemon{
+  width: 50%;
+  background-color:rgb(247, 247, 248);
+}
+.titleTable{
+  height: 20%;
+  width: 100%;
+  padding-left: 50px;
+}
+.titleTable h2{
+  width: 100%;
+  font-weight: bold;
+  text-transform: capitalize
+}
+.dataTable{
+  width: 100%;
+  background-color:rgb(247, 247, 248);
+}
+.informationPokemon{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.dataHeigth, .dataWeigth, .dataType, .dataAbilities{
+  width: 40%;
+  height: 40%;
+  padding: 5px;
+}
+.buttonVolver{
+  background-color:rgb(247, 247, 248);
+  text-align: center;
+} 
+.number{
+  font-family: Courier, monospace;
+  color: gray;
+}
+.search-container{
+  margin-top: 280px;
+}
