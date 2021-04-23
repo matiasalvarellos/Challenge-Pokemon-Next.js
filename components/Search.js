@@ -1,14 +1,12 @@
-function Search(){
+function Search({searchPokemon}){
+
   return(
     <div className="search-container">
-      <div className="input-group rounded">
-        <input type="text" className="form-control rounded" placeholder="Buscar Pokémon" aria-label="Search"
-          aria-describedby="search-addon" />
-        <span className="input-group-text border-0" id="search-addon">
-          <i className="fas fa-search"></i>
-        </span>
-      </div>
+      <form onSubmit={(e)=> e.preventDefault() } >
+        <input onChange={searchPokemon} type="text" className="search-input" placeholder="Buscar Pokémon" />
+      </form>
     </div>
+
   )
 }
 

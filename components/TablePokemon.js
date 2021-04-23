@@ -17,28 +17,28 @@ function TablePokemon({name, id, height, weight, types, abilities}){
             </div>
 
             <div className="informationPokemon">
-              <div className="dataHeigth">
+              <div className="data-top">
 
                 <p className="data">Height</p>
-                <p>{height} cm</p>
+                <p>{height*10} cm</p>
 
               </div>
 
-              <div className="dataWeigth">
+              <div className="data-top">
 
                 <p className="data">Weight</p>
-                <p>{weight} Kg</p>
+                <p>{weight/10} Kg</p>
 
               </div>
 
-              <div className="dataType">
+              <div className="data-bottom">
 
                 <p className="data">Type</p>
                 {types.map((type, i) => <p key={i}>{type.type.name}</p>)}
 
               </div>
 
-              <div className="dataAbilities">
+              <div className="data-bottom">
 
                 <p className="data">Abilities</p>
                 {abilities.map((ability,i)=> <p key={i}>{ability.ability.name}</p>)}
