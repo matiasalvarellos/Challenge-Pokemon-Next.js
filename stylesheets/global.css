@@ -1,9 +1,9 @@
 body{
-  background-color:#000000b6;
+  background-color:#f5e5e5;
 }
 .header {
   text-align: center;
-  height: 140px;
+  height: 100px;
   background-color: #D291BC;
 }
 .header img{
@@ -105,8 +105,8 @@ body{
   justify-content: center;
   width: 60%;
   height: 25%;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 20px;
+  margin-bottom: 80px;
   border-radius: 10px;
   border: 3px solid black;
   box-shadow:rgb(15, 12, 12) 1px 4px 5px;
@@ -186,4 +186,23 @@ body{
 .image-error{
   height: 100%;
   width: 100%;
+}
+.container-arrow{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.arrow img , .return img{
+  margin: 10px 20px;
+  width: 80px;
+  height: 80px;
+}
+.return img{
+  margin: 15px 20px;
+  width: 60px;
+  height: 60px;
+}
+.arrow img:hover, .return img:hover{
+  cursor: pointer;
 }

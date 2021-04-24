@@ -1,4 +1,5 @@
 import TablePokemon from "../../components/TablePokemon";
+import ArrowButtoms from "../../components/ArrowButtoms"
 import getPokemon from "../../utils/getPokemon";
 import {useState} from "react";
 
@@ -8,6 +9,7 @@ function Detail(props){
 
   return(
     <div>
+      <ArrowButtoms />
       <TablePokemon
         name={pokemon.name}
         id={pokemon.id}
